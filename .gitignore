@@ -3,6 +3,7 @@
 # compiled output
 dist
 tmp
+lib
 /out-tsc
 
 # dependencies
@@ -33,6 +34,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+lerna-debug.log
 
 # System Files
 .DS_Store

@@ -2,7 +2,10 @@
   "name": "nx",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "release": "lerna publish --yes --create-release github -m \"chore(release): publish\"",
+    "release:test": "npm run release -- --registry=\"http://localhost:4873/\""
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/cli": "15.0.3",

@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "first-library": ["packages/packages/first-library/src/index.ts"]
+      "first-library": ["packages/packages/first-library/src/index.ts"],
+      "components": ["packages/packages/components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
