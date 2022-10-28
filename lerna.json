@@ -1,7 +1,9 @@
 {
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
+  "useNx": true,
   "command": {
     "publish": {
       "conventionalCommits": true,

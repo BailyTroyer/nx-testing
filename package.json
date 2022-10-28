@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "release": "lerna publish --yes --create-release github -m \"chore(release): publish\"",
-    "release:test": "lerna publish --no-push --registry=\"http://localhost:4873/\""
+    "release:test": "lerna publish --yes --no-push --registry=\"http://localhost:4873/\""
   },
   "private": true,
   "devDependencies": {
@@ -16,7 +16,7 @@
     "@swc/core": "^1.2.173",
     "@types/node": "18.7.1",
     "esbuild": "^0.15.7",
-    "lerna": "^4.0.0",
+    "lerna": "^5.3.0",
     "nx": "15.0.3",
     "prettier": "^2.6.2",
     "typescript": "~4.8.2"
