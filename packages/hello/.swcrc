@@ -1,0 +1,16 @@
+{
+  // Enable minification
+  "minify": true,
+  // Optional, configure minifcation options
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    },
+    "minify": {
+      "compress": {
+        "unused": true
+      },
+      "mangle": true
+    }
+  }
+}
