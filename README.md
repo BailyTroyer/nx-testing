@@ -7,4 +7,7 @@ Testing release
 
 1. `docker-compose up -d`
 2. `npm adduser --registry http://localhost:4873/`
-3.
+
+Questions
+
+1. what is difference between project.json and workspace.json and LERNA?

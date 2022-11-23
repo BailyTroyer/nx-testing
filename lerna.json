@@ -4,6 +4,7 @@
   "version": "independent",
   "npmClient": "npm",
   "useNx": true,
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "conventionalCommits": true,
